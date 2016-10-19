@@ -1,0 +1,28 @@
+{
+  "name": "chai-avro",
+  "version": "0.0.1",
+  "description": "Plugin to use Avro schemas together with the chaijs testing framework",
+  "main": "chai-avro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryx/chai-avro.git"
+  },
+  "keywords": [
+    "chaijs",
+    "avro",
+    "chai-avro",
+    "avdl"
+  ],
+  "author": "Rico Pfaus <ricopfaus@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryx/chai-avro/issues"
+  },
+  "homepage": "https://github.com/ryx/chai-avro#readme",
+  "devDependencies": {
+    "avsc": "^4.1.9"
+  }
+}
