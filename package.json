@@ -4,7 +4,7 @@
   "description": "Plugin to use Avro schemas together with the chaijs testing framework",
   "main": "chai-avro.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha ./test"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,11 @@
     "url": "https://github.com/ryx/chai-avro/issues"
   },
   "homepage": "https://github.com/ryx/chai-avro#readme",
-  "devDependencies": {
+  "dependencies": {
     "avsc": "^4.1.9"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
   }
 }

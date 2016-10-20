@@ -1,0 +1,10 @@
+@namespace("com.example.types")
+
+protocol Test {
+
+  record Foo {
+    string  stringProp;
+    int intProp;
+  }
+
+}
