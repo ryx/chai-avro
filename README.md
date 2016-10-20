@@ -1,12 +1,12 @@
 # chai-avro
 
-A chaijs plugin to use [Avro](http://http://avro.apache.org) schema definitions in tests
+A chaijs plugin to use [Avro](http://avro.apache.org) schema definitions in tests
 
 ## Info
-This is a very simple plugin to use the [Avro modelling language](http://avro.apache.org/docs/current/idl.html) schemas
-within the [chaijs](http://chaijs.com) testing framework. Behind the scenes it is based on
+This is a very simple plugin to use the Avro schemas within the [chaijs](http://chaijs.com)
+testing framework, which allows for easily testing against schemas. Behind the scenes it is based on
 the Avro implementation from [AVSC](https://github.com/mtth/avsc). Currently only supports loading
-protocols from Avro IDL files (*.avdl).
+protocols from [Avro IDL](http://avro.apache.org/docs/current/idl.html) files (*.avdl).
 
 ## Usage
 
@@ -39,5 +39,5 @@ For real-world examples see docs/example-mochajs.md.
 
 ## About
 
-by Rico Pfaus <ricopfaus@gmail.com> | (c) 2016 | MIT licensed
+by Rico Pfaus | (c) 2016 | MIT licensed
 
