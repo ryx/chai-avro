@@ -13,17 +13,19 @@ describe('chai-avro', function () {
       assert.throws(test, 'call loadProtocol first');
     });
 
-    it('should load an Avro schema from file', function () {
-      return chaiAvro.loadProtocol('./test/avdl/TestTypes.avdl')
+    it('should load an Avro schema from file', function (done) {
+      chaiAvro.loadProtocol('./test/avdl/TestTypes.avdl')
         .then(function(protocol) {
           assert.isObject(protocol);
+          done();
         });
     });
 
-    it('should throw an error when file access failed for any reason', function () {
-      return chaiAvro.loadProtocol('./booooom')
+    it('should throw an error when file access failed for any reason', function (done) {
+      chaiAvro.loadProtocol('./booooom')
         .catch(function(err) {
-          assert.include(err.message, 'call loadProtocol first');
+          assert.include(err, 'call loadProtocol first');
+          done();
         });
     });
   });
