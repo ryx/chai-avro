@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/ryx/chai-avro#readme",
   "dependencies": {
-    "avsc": "^4.1.9"
+    "avsc": "^4.1.11"
   },
   "devDependencies": {
     "chai": "^3.5.0",
