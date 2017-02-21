@@ -2,7 +2,7 @@
  * Plugin to use Avro schema definitions in chaijs assertions. Currently
  * only supports loading protocol (*.avdl) files with AVRO IDL.
  *
- * by Rico Pfaus <ricopfaus@gmail.com> | (c) 2016 | MIT licensed
+ * by Rico Pfaus <ricopfaus@gmail.com> | (c) 2016-2017 | MIT licensed
  */
 const avsc = require('avsc');
 

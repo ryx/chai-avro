@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ryx/chai-avro.svg?branch=master)](https://travis-ci.org/ryx/chai-avro)
+
 # chai-avro
 
 A chaijs plugin to use [Avro](http://avro.apache.org) schema definitions in tests
