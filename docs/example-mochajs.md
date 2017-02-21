@@ -34,10 +34,8 @@ chai.use(chaiAvro);
 describe('suite', function () {
 
   // init chai-avro using a Promise
-  before(function(done) {
-    chaiAvro.loadProtocol('./types.avdl').then(function() {
-      done();
-    })
+  before(function() {
+    return chaiAvro.loadProtocol('./types.avdl');
   });
 
   it('should comply with the Avro schema', function () {
